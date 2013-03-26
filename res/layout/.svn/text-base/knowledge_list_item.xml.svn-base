@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:background="@drawable/news_list_background_xml" 
+    android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@+id/news_news_list_item_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" android:src="@drawable/news_arrow" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <RelativeLayout android:id="@+id/news_news_list_item_image_layout" android:layout_width="wrap_content" android:layout_height="58.0dip" android:layout_marginRight="4.0dip" android:layout_toLeftOf="@id/news_news_list_item_arrow" android:layout_centerVertical="true">
+        <ImageView android:id="@+id/news_news_list_item_image" android:background="@drawable/news_list_pic" android:visibility="gone" android:layout_width="68.0dip" android:layout_height="58.0dip" android:scaleType="fitXY" />
+        <ImageView android:id="@+id/news_news_list_item_image_play" android:background="@drawable/news_play" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="6.0dip" android:layout_toLeftOf="@id/news_news_list_item_image_layout" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+        <TextView android:textSize="15.0dip" android:textColor="@drawable/news_channel_title_color_xml" android:ellipsize="end" android:id="@+id/news_news_list_item_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="11.0dip" android:maxLines="1" />
+        <TextView android:textSize="11.0dip" android:textColor="@drawable/news_channel_content_color_xml" android:ellipsize="end" android:id="@+id/news_news_list_item_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="6.0dip" android:maxLines="2" />
+    </LinearLayout>
+    <TextView android:textSize="11.0dip" android:textColor="@drawable/news_channel_content_color_xml" android:gravity="bottom|center" android:id="@+id/news_news_list_item_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:layout_marginBottom="-4.0dip" android:layout_toLeftOf="@id/news_news_list_item_image_layout" android:layout_alignBottom="@id/news_news_list_item_image_layout" />
+</RelativeLayout>

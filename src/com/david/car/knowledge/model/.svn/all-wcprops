@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/52/trunk/carcare/src/com/david/car/knowledge/model
+END
+KnowledgeCarManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/52/trunk/carcare/src/com/david/car/knowledge/model/KnowledgeCarManager.java
+END
+KnowledgeCarManagerImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/52/trunk/carcare/src/com/david/car/knowledge/model/KnowledgeCarManagerImpl.java
+END
+knowledgeContentManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/52/trunk/carcare/src/com/david/car/knowledge/model/knowledgeContentManager.java
+END
+knowledgeContentManagerImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/52/trunk/carcare/src/com/david/car/knowledge/model/knowledgeContentManagerImpl.java
+END

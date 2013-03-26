@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainweixin"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#eee" >  
+
+   <RelativeLayout 
+        android:id="@+id/login_top_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/title_bar">
+        <Button
+            android:id="@+id/login_reback_btn"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="返回"
+            android:textSize="14sp"
+            android:textColor="#fff"
+            android:onClick="login_back"
+            android:background="@drawable/title_btn_back"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:text="丁丁汽车助手"
+           />
+        
+    </RelativeLayout>
+    <TextView android:id="@+id/textView1" 
+    	android:text="汽车小提示:" 
+    	android:layout_width="fill_parent" 
+    	android:layout_height="100dp" 
+    	android:layout_below="@+id/login_top_layout"
+    >
+    </TextView>
+  	<RelativeLayout android:id="@+id/main_page_button_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:layout_alignParentBottom="true">
+        <RelativeLayout android:id="@+id/main_page_button_layout_line_one" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:id="@+id/knowledge" android:background="@drawable/main_news_xml" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" />
+            <Button android:id="@+id/carmessage" android:background="@drawable/main_live_xml" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+            <Button android:id="@+id/careitem" android:background="@drawable/main_disclosure_xml" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/main_page_button_layout_line_two" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_below="@id/main_page_button_layout_line_one">
+            <Button android:id="@+id/main_road" android:background="@drawable/main_road_xml" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" />
+            <Button android:id="@+id/main_bus" android:background="@drawable/main_bus_xml" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+            <Button android:id="@+id/main_subway" android:background="@drawable/main_subway_xml" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/main_page_button_layout_line_three" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_below="@id/main_page_button_layout_line_two">
+            <Button android:id="@+id/main_weather" android:background="@drawable/main_weather_xml" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" />
+            <Button android:id="@+id/main_microblog" android:background="@drawable/main_microblog_xml" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+            <Button android:id="@+id/main_system" android:background="@drawable/main_setting_xml" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

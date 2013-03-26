@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/65/trunk/carcare/src/com/david/car/carmessage/model
+END
+CarMessageListManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/60/trunk/carcare/src/com/david/car/carmessage/model/CarMessageListManager.java
+END
+CarMessageSetManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/65/trunk/carcare/src/com/david/car/carmessage/model/CarMessageSetManager.java
+END
+CarMessageSetManagerImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/65/trunk/carcare/src/com/david/car/carmessage/model/CarMessageSetManagerImpl.java
+END
+CarMessageListManagerImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/65/trunk/carcare/src/com/david/car/carmessage/model/CarMessageListManagerImpl.java
+END

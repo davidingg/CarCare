@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+   <include android:id="@+id/knowledge_carcare_logo" layout="@layout/knowledge_carcare_title" />
+   <LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent" 
+       android:layout_below="@id/knowledge_carcare_logo"
+       >
+      <WebView 
+          android:id="@+id/knowledgetext" 
+          android:layout_width="fill_parent" 
+          android:layout_height="fill_parent"
+          android:textColor="@color/black"
+          android:background="@color/white"
+          >
+      </WebView>
+   </LinearLayout>
+</RelativeLayout>

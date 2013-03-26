@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/register_background"
+    >
+	<include android:id="@+id/knowledge_carcare_logo" layout="@layout/knowledge_carcare_title" />
+	<ScrollView android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="wrap_content">		<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+
+			<LinearLayout android:orientation="vertical" android:background="@drawable/bg_register_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="20.0dip">
+				<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+			        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="车牌号:" android:textColor="@color/text_lable"/>
+			        <EditText android:id="@+id/plate_number" android:background="#00000000" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:maxLines="1" android:singleLine="true" />
+			    </LinearLayout>
+			    <View android:background="@color/grey4" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+			    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+			        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="汽車型號:" android:textColor="@color/text_lable"/>
+			        <EditText android:id="@+id/cartype" android:background="#00000000" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:maxLines="1" android:singleLine="true" />
+			    </LinearLayout>
+			    <View android:background="@color/grey4" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+			    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+			        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="當前里程:" android:textColor="@color/text_lable"/>
+			        <EditText android:id="@+id/travel_mileage" android:background="#00000000" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:maxLines="1" android:singleLine="true" android:numeric="integer"/>
+			    </LinearLayout>
+			    <View android:background="@color/grey4" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+			    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+			        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="上次保養:" android:textColor="@color/text_lable"/>
+			        <EditText android:id="@+id/last_carcare_time" android:background="#00000000" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:maxLines="1" android:singleLine="true" />
+			    </LinearLayout>
+			    <View android:background="@color/grey4" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+			    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+			        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="保養週期:" android:textColor="@color/text_lable"/>
+			        <EditText android:id="@+id/care_period" android:background="#00000000" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:maxLines="1" android:singleLine="true" />
+			    </LinearLayout>
+			    <View android:background="@color/grey4" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+			    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+			        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="保養里程:" android:textColor="@color/text_lable" />
+			        <EditText android:id="@+id/care_mileage" android:background="#00000000" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:maxLines="1" android:singleLine="true" android:numeric="integer"/>
+			    </LinearLayout>
+		    </LinearLayout>
+			<LinearLayout 
+			    android:orientation="horizontal" 
+			    android:layout_width="fill_parent" 
+			    android:layout_height="wrap_content"
+			    android:layout_marginLeft="20.0dip"
+			    android:layout_marginRight="20.0dip"
+			    android:gravity="center" 
+			    android:layout_gravity="center"
+			    >
+				<Button
+				    android:id="@+id/save_button"
+				    android:layout_width="107dp"
+				    android:layout_height="wrap_content"
+				    android:layout_marginTop="5.0dip"
+				    android:background="@drawable/big_button_xml"
+				    android:text="保存"
+				    android:textColor="@color/white"
+				    android:textSize="20.0sp"
+				    android:textStyle="bold"
+				 />
+
+			    <Button
+			        android:id="@+id/delete_button"
+			        android:layout_width="107dp"
+			        android:layout_height="wrap_content"
+			        android:layout_marginLeft="20.0dip"
+			        android:layout_marginTop="5.0dip"
+			        android:background="@drawable/big_button_xml"
+			        android:text="删除"
+			        android:textColor="@color/white"
+			        android:textSize="20.0sp"
+			        android:textStyle="bold"
+			    />
+			</LinearLayout>
+	    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

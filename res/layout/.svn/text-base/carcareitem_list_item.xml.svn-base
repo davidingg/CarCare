@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/news_list_background_xml"
+    android:gravity="top"
+    android:orientation="horizontal" >
+
+    <ImageView android:id="@+id/news_news_list_item_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" android:src="@drawable/news_arrow" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+ 	<CheckBox
+            android:id="@+id/checkBox1"
+            android:layout_width="36dp"
+            android:layout_height="wrap_content"
+            android:text="ON" 
+            android:layout_alignParentLeft="true" 
+           	android:layout_centerVertical="true"
+            />
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/news_news_list_item_image_layout"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10.0dip"
+        android:layout_marginRight="15.0dip"
+        android:layout_toRightOf="@id/checkBox1"
+        android:orientation="vertical" >
+
+        <TextView android:textSize="14.0dip" 
+            android:textColor="@drawable/news_channel_title_color_xml" 
+            android:ellipsize="end" 
+            android:id="@+id/carcareitem_list_item_title" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="11.0dip" 
+            android:maxLines="2" 
+            android:text="更換機油機濾"
+            />
+
+        <RelativeLayout
+            android:id="@+id/carcareitem_relative1"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true" >
+
+       	 	<TextView android:textSize="11.0dip" 
+       	 	    android:textColor="@drawable/news_channel_content_color_xml" 
+       	 	    android:ellipsize="end" 
+       	 	    android:id="@+id/carcareitem_list_item_money" 
+       	 	    android:layout_width="wrap_content" 
+       	 	    android:layout_height="wrap_content" 
+       	 	    android:layout_alignParentLeft="true" 
+       	 	    android:layout_marginBottom="6.0dip" 
+       	 	    android:layout_marginLeft="10dip"
+       	 	    android:text="$100"
+       	 	    android:maxLines="1" />
+       	 	<TextView android:textSize="11.0dip" 
+       	 	    android:textColor="@drawable/news_channel_content_color_xml" 
+       	 	    android:ellipsize="end" 
+       	 	    android:id="@+id/carcareitem_list_item_change" 
+       	 	    android:layout_width="wrap_content" 
+       	 	    android:layout_height="wrap_content" 
+       	 	    android:layout_alignParentRight="true" 
+       	 	    android:layout_marginBottom="6.0dip" 
+       	 	    android:layout_marginRight="10dip"
+       	 	    android:text="需更換"
+       	 	    android:maxLines="1" />
+    	</RelativeLayout>
+    </LinearLayout>
+    <TextView android:textSize="11.0dip" android:textColor="@drawable/news_channel_content_color_xml" android:gravity="bottom|center" android:id="@+id/news_news_list_item_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:layout_marginBottom="-4.0dip" android:layout_toLeftOf="@id/news_news_list_item_image_layout" android:layout_alignBottom="@id/news_news_list_item_image_layout" />
+</RelativeLayout>

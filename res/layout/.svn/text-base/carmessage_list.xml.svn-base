@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="#eee"
+    >
+	<include android:id="@+id/knowledge_carcare_logo" layout="@layout/knowledge_carcare_title" /> 
+	<ListView
+	    android:id="@+id/car_message_list"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:fadingEdge="none" />
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+	<include android:id="@+id/knowledge_carcare_logo" layout="@layout/knowledge_carcare_title" />
+	
+		<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/news_list_channel" android:background="@drawable/news_channel_background" android:layout_width="fill_parent" android:layout_height="wrap_content" >
+	        <Button android:textSize="16.0dip" android:id="@+id/knowledges_list_channel_one" android:background="@drawable/news_channel_button_on" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_weight="1.0" />
+	        <Button android:textSize="16.0dip" android:id="@+id/knowledges_list_channel_two" android:background="@drawable/news_channel_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+	        <Button android:textSize="16.0dip" android:id="@+id/knowledges_list_channel_three" android:background="@drawable/news_channel_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+	        <Button android:textSize="16.0dip" android:id="@+id/knowledges_list_channel_four" android:background="@drawable/news_channel_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+	        <Button android:textSize="16.0dip" android:id="@+id/knowledges_list_channel_five" android:background="@drawable/news_channel_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+	        <Button android:textSize="16.0dip" android:textColor="@color/news_channel_color" android:id="@+id/news_list_channel_more" android:background="@drawable/news_channel_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" android:text="更多" android:layout_weight="1.0" />
+	    </LinearLayout>
+	    <ListView
+	        android:id="@+id/knowledges_list"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1.0"
+	        android:fadingEdge="none" />
+    
+</LinearLayout>

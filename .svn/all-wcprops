@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/80/trunk/carcare
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/52/trunk/carcare/.classpath
+END
+proguard.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/52/trunk/carcare/proguard.cfg
+END
+project.properties
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/52/trunk/carcare/project.properties
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/52/trunk/carcare/.project
+END
+lint.xml
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/52/trunk/carcare/lint.xml
+END
+AndroidManifest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/80/trunk/carcare/AndroidManifest.xml
+END

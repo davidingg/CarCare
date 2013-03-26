@@ -1,0 +1,52 @@
+8
+
+dir
+80
+https://daviddingproject.googlecode.com/svn/trunk/carcare/src/com/david/car/carcareitem/model
+https://daviddingproject.googlecode.com/svn
+
+
+
+2013-02-15T14:41:22.143208Z
+80
+david.ding1986@gmail.com
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+5a216d90-1dcf-24cc-6c2e-7772ae9243bc
+
+CarCareItemListManager.java
+file
+
+
+
+
+2013-01-18T13:30:06.187500Z
+110a04072b74f4252dc93759ffb06b92
+2013-01-25T14:33:08.994410Z
+74
+david.ding1986@gmail.com
+
+CarCareItemListManagerImpl.java
+file
+81
+
+
+
+2013-02-17T10:15:21.453125Z
+9397b58d5924a8bd11da4b28fc3a590a
+2013-02-27T14:23:02.486129Z
+81
+david.ding1986@gmail.com
+
